@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title data-i18n="extName"></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>    <div class="stats-container">
+        <div class="stats-column" data-mode="normal">
+            <h2 data-i18n="normalMode"></h2>
+            <div class="stat-item">
+                <span data-i18n="tabsCount"></span>
+                <span id="normal-tab-count">0</span>
+            </div>
+            <div class="stat-item">
+                <span data-i18n="windowsCount"></span>
+                <span id="normal-window-count">0</span>
+            </div>
+            <div class="top-list">
+                <h3 data-i18n="topSites"></h3>
+                <ol id="normal-top-domains" class="domain-list"></ol>
+            </div>
+        </div>
+
+        <!-- Инкогнито окна -->
+        <div class="stats-column" data-mode="incognito">
+            <h2 data-i18n="incognitoMode"></h2>
+            <div class="stat-item">
+                <span data-i18n="tabsCount"></span>
+                <span id="incognito-tab-count">0</span>
+            </div>
+            <div class="stat-item">
+                <span data-i18n="windowsCount"></span>
+                <span id="incognito-window-count">0</span>
+            </div>
+            <div class="top-list">
+                <h3 data-i18n="topSites"></h3>
+                <ol id="incognito-top-domains" class="domain-list"></ol>
+            </div>
+        </div>
+    </div>
+    
+    <button id="refresh-btn" data-i18n="refreshButton"></button>
+    <script src="popup.js"></script>
+</body>
+</html>

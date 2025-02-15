@@ -1,0 +1,42 @@
+{
+  "extName": {
+    "message": "Contador de pestañas",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Muestra estadísticas de pestañas y ventanas abiertas",
+    "description": "Extension description"
+  },
+  "normalMode": {
+    "message": "Modo normal",
+    "description": "Normal mode title"
+  },
+  "incognitoMode": {
+    "message": "Incógnito",
+    "description": "Incognito mode title"
+  },
+  "tabsCount": {
+    "message": "Pestañas",
+    "description": "Tabs count label"
+  },
+  "windowsCount": {
+    "message": "Ventanas",
+    "description": "Windows count label"
+  },
+  "topSites": {
+    "message": "Sitios principales",
+    "description": "Top sites section title"
+  },
+  "noTabs": {
+    "message": "Sin pestañas",
+    "description": "No tabs message"
+  },
+  "refreshButton": {
+    "message": "Actualizar",
+    "description": "Refresh button text"
+  },
+  "unknownDomain": {
+    "message": "Desconocido",
+    "description": "Label for unrecognized URLs"
+  }
+}

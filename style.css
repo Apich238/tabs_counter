@@ -1,0 +1,134 @@
+body {
+    width: auto; /* Ширина будет адаптироваться */
+    min-width: 200px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.stats-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    justify-content: center; /* Всегда центрируем колонки */
+}
+
+.stats-column {
+    width: 180px; /* Фиксированная ширина */
+    padding: 12px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+}
+
+/* Скрытие колонки инкогнито */
+.stats-column[data-mode="incognito"]:not(:has(li)) {
+    display: none !important;
+}
+
+h2 {
+    font-size: 15px;
+    margin: 0 0 12px 0;
+    color: #1a73e8;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #eee;
+}
+
+.stat-item {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-item span {
+    font-weight: bold;
+    color: #333;
+}
+
+.top-list {
+    margin-top: 10px;
+}
+
+.top-list h3 {
+    margin: 10px 0 8px 0;
+    font-size: 13px;
+    color: #666;
+}
+
+.domain-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.domain-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.domain-name {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 10px;
+}
+
+.domain-count {
+    color: #1a73e8;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+#refresh-btn {
+    width: 100%;
+    padding: 10px 15px;
+    background: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#refresh-btn:hover {
+    background: #1557b0;
+}
+
+/* Стиль для пустых состояний */
+.domain-list:empty::before {
+    content: "Нет вкладок";
+    display: block;
+    color: #999;
+    font-style: italic;
+    font-size: 13px;
+    text-align: center;
+    padding: 8px 0;
+}
+
+#language-select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#language-select:focus {
+    outline: none;
+    border-color: #1a73e8;
+    box-shadow: 0 0 0 2px rgba(26, 115, 232, 0.2);
+}

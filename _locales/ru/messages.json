@@ -1,0 +1,42 @@
+{
+  "extName": {
+    "message": "Счётчик вкладок",
+    "description": "Название расширения"
+  },
+  "extDescription": {
+    "message": "Показывает статистику открытых вкладок и окон",
+    "description": "Описание расширения"
+  },
+  "normalMode": {
+    "message": "Обычный режим",
+    "description": "Заголовок для обычных окон"
+  },
+  "incognitoMode": {
+    "message": "Инкогнито",
+    "description": "Заголовок для окон в режиме инкогнито"
+  },
+  "tabsCount": {
+    "message": "Вкладок",
+    "description": "Лейбл счётчика вкладок"
+  },
+  "windowsCount": {
+    "message": "Окон",
+    "description": "Лейбл счётчика окон"
+  },
+  "topSites": {
+    "message": "Топ сайтов",
+    "description": "Заголовок списка популярных сайтов"
+  },
+  "noTabs": {
+    "message": "Нет вкладок",
+    "description": "Сообщение при отсутствии вкладок"
+  },
+  "refreshButton": {
+    "message": "Обновить",
+    "description": "Текст кнопки обновления"
+  },
+  "unknownDomain": {
+    "message": "неизвестно",
+    "description": "Лейбл для нераспознанных URL"
+  }
+}

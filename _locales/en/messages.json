@@ -1,0 +1,42 @@
+{
+  "extName": {
+    "message": "Tab Counter",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Counts open tabs and windows with statistics",
+    "description": "Extension description"
+  },
+  "normalMode": {
+    "message": "Normal Mode",
+    "description": "Normal mode title"
+  },
+  "incognitoMode": {
+    "message": "Incognito",
+    "description": "Incognito mode title"
+  },
+  "tabsCount": {
+    "message": "Tabs",
+    "description": "Tabs count label"
+  },
+  "windowsCount": {
+    "message": "Windows",
+    "description": "Windows count label"
+  },
+  "topSites": {
+    "message": "Top Sites",
+    "description": "Top sites section title"
+  },
+  "noTabs": {
+    "message": "No tabs",
+    "description": "No tabs message"
+  },
+  "refreshButton": {
+    "message": "Refresh",
+    "description": "Refresh button text"
+  },
+  "unknownDomain": {
+    "message": "unknown",
+    "description": "Label for unrecognised URLs"
+  }
+}

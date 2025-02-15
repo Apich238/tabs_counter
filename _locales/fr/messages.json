@@ -1,0 +1,42 @@
+{
+  "extName": {
+    "message": "Compteur d'onglets",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Affiche les statistiques des onglets et fenêtres ouverts",
+    "description": "Extension description"
+  },
+  "normalMode": {
+    "message": "Mode normal",
+    "description": "Normal mode title"
+  },
+  "incognitoMode": {
+    "message": "Navigation privée",
+    "description": "Incognito mode title"
+  },
+  "tabsCount": {
+    "message": "Onglets",
+    "description": "Tabs count label"
+  },
+  "windowsCount": {
+    "message": "Fenêtres",
+    "description": "Windows count label"
+  },
+  "topSites": {
+    "message": "Sites les plus visités",
+    "description": "Top sites section title"
+  },
+  "noTabs": {
+    "message": "Aucun onglet",
+    "description": "No tabs message"
+  },
+  "refreshButton": {
+    "message": "Actualiser",
+    "description": "Refresh button text"
+  },
+  "unknownDomain": {
+    "message": "Inconnu",
+    "description": "Label for unrecognized URLs"
+  }
+}

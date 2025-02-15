@@ -1,0 +1,42 @@
+{
+  "extName": {
+    "message": "Tab-Zähler",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Zeigt Statistiken zu geöffneten Tabs und Fenstern",
+    "description": "Extension description"
+  },
+  "normalMode": {
+    "message": "Normalmodus",
+    "description": "Normal mode title"
+  },
+  "incognitoMode": {
+    "message": "Inkognito",
+    "description": "Incognito mode title"
+  },
+  "tabsCount": {
+    "message": "Tabs",
+    "description": "Tabs count label"
+  },
+  "windowsCount": {
+    "message": "Fenster",
+    "description": "Windows count label"
+  },
+  "topSites": {
+    "message": "Top-Websites",
+    "description": "Top sites section title"
+  },
+  "noTabs": {
+    "message": "Keine Tabs",
+    "description": "No tabs message"
+  },
+  "refreshButton": {
+    "message": "Aktualisieren",
+    "description": "Refresh button text"
+  },
+  "unknownDomain": {
+    "message": "Unbekannt",
+    "description": "Label for unrecognized URLs"
+  }
+}
